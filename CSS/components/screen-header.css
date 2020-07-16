@@ -14,3 +14,18 @@
 .screen-header__icons span {
   margin-left: 20px;
 }
+
+.find__header {
+  position: relative;
+  color: #2e363e;
+}
+
+.find__note {
+  background-color: tomato;
+  width: 8px;
+  height: 8px;
+  border-radius: 5px;
+  left: 70px;
+  bottom: 25px;
+  position: absolute;
+}

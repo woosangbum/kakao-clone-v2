@@ -1,0 +1,137 @@
+.find-icons {
+  display: flex;
+  justify-content: space-between;
+  margin: 12px var(--horizontal-space);
+  padding-top: 12px;
+  padding-bottom: 11px;
+  flex-grow: 1;
+}
+
+.find-icons__icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.find-icons__icon i {
+  font-size: 35px;
+}
+
+.find-icons__icon span {
+  margin-top: 18px;
+}
+
+#except {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.recommended-friends {
+  margin: 23px 0px 20px 0px;
+  padding: 20px 0px 28px 0px;
+  border-top: var(--main-border);
+  border-bottom: var(--main-border);
+}
+.recommended-friedns__title {
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.recommended-friends span {
+  margin: 96px 0;
+  display: block;
+  text-align: center;
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.open-chart__header {
+  display: flex;
+  justify-content: space-between;
+  opacity: 0.8;
+  font-size: 15px;
+}
+
+.open-chart__header span {
+  opacity: 0.6;
+}
+
+.open-post {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.open-post__title {
+  font-weight: 600;
+  margin-bottom: 7px;
+  font-size: 20px;
+}
+
+.open-post__hashtags {
+  opacity: 0.6;
+  font-size: 16px;
+}
+
+.open-post__members {
+  margin-top: 12px;
+  display: flex;
+}
+
+.open-post__members img {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-right: 7px;
+}
+
+.open-post__member-count {
+  opacity: 0.5;
+  font-size: 15px;
+}
+
+.open-post__members .divider {
+  width: 2px;
+  height: 15px;
+  margin: 0 5px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.open-post__member-status {
+  color: #ffb0e0;
+  font-size: 15px;
+}
+
+.open-post__photo {
+  position: relative;
+}
+.open-post__photo img {
+  width: 105px;
+  height: 105px;
+  border-radius: 8px;
+}
+
+.open-post__heart-count {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 4px 9px;
+  border-radius: 20px;
+  position: absolute;
+  bottom: 8px;
+  right: 7px;
+  font-size: 15px;
+}
+.open-post__heart-count span {
+  margin-left: 5px;
+}
+
+.open-chart .column__divider {
+  height: 1px;
+  width: 100%;
+  margin: 0 5px;
+  background-color: rgba(0, 0, 0, 0.2);
+}

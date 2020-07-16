@@ -3,7 +3,7 @@
   bottom: 0;
   width: 100%;
   background-color: #f9f9fa;
-  padding: 15px 40px;
+  padding: 22px 50px;
   box-sizing: border-box;
   border-top: 1px solid rgba(121, 121, 121, 0.3);
 }
@@ -18,17 +18,15 @@
 
 .nav__notification {
   position: absolute;
-  left: 20px;
-  bottom: 17px;
+  left: 17px;
+  bottom: 15px;
 }
+
 .nav__note {
   background-color: tomato;
   width: 8px;
   height: 8px;
   border-radius: 5px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   left: 30px;
   bottom: 25px;
   position: absolute;

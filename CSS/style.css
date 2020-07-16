@@ -12,12 +12,13 @@
 /* screens */
 
 @import 'screens/login.css';
+@import 'screens/find.css';
 @import 'screens/friends.css';
 
 body {
   font-family: 'Open Sans', sans-serif;
 }
 
-.chats-screen {
+.main-screen {
   padding: 0px var(--horizontal-space);
 }
