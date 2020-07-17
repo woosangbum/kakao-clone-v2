@@ -25,7 +25,22 @@
   width: 8px;
   height: 8px;
   border-radius: 5px;
-  left: 70px;
-  bottom: 25px;
+  left: 65px;
+  bottom: 20px;
+  position: absolute;
+}
+
+.more__header {
+  position: relative;
+  color: #2e363e;
+}
+
+.more__note {
+  background-color: tomato;
+  width: 8px;
+  height: 8px;
+  border-radius: 5px;
+  left: 110px;
+  bottom: 20px;
   position: absolute;
 }

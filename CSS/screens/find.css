@@ -1,27 +1,3 @@
-.find-icons {
-  display: flex;
-  justify-content: space-between;
-  margin: 12px var(--horizontal-space);
-  padding-top: 12px;
-  padding-bottom: 11px;
-  flex-grow: 1;
-}
-
-.find-icons__icon {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.find-icons__icon i {
-  font-size: 35px;
-}
-
-.find-icons__icon span {
-  margin-top: 18px;
-}
-
 #except {
   display: flex;
   flex-direction: column;
@@ -29,7 +5,7 @@
 }
 
 .recommended-friends {
-  margin: 23px 0px 20px 0px;
+  margin: 5px 0px 20px 0px;
   padding: 20px 0px 28px 0px;
   border-top: var(--main-border);
   border-bottom: var(--main-border);

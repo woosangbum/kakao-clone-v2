@@ -1,0 +1,38 @@
+.icon-row {
+  display: flex;
+  flex-direction: column;
+}
+
+.icon-row__column1 {
+  display: flex;
+  justify-content: space-between;
+  margin: 12px;
+}
+
+.icon-row__column2 {
+  display: flex;
+  justify-content: space-between;
+  margin: 12px;
+  margin-top: 25px;
+  padding-top: 12px;
+  padding-bottom: 11px;
+}
+
+.icon-row__icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.icon-row__icon i {
+  font-size: 35px;
+}
+
+.icon-row__icon span {
+  margin-top: 18px;
+}
+
+.except2 {
+  color: white;
+}
