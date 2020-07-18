@@ -11,7 +11,7 @@
 .user-component__avatar {
   width: 70px;
   height: 70px;
-  border-radius: 30px;
+  border-radius: 28px;
   margin-right: 20px;
 }
 
@@ -27,8 +27,8 @@
 }
 
 .user-component__avatar--xl {
-  width: 78px;
-  height: 76px;
+  width: 70px;
+  height: 70px;
 }
 
 .user-component__avatar user-component__avatar--sm {
